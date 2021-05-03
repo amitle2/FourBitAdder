@@ -1,0 +1,73 @@
+$date
+	Mon Nov 02 17:26:00 2020
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	100ps
+$end
+
+$scope module FourBitAdderTB $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var wire 1 # C [4] $end
+$var wire 1 $ C [3] $end
+$var wire 1 % C [2] $end
+$var wire 1 & C [1] $end
+$var wire 1 ' C [0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+bx "
+x'
+x&
+x%
+x$
+x#
+$end
+#1000
+b11 !
+b100 "
+#1050
+1'
+#1100
+1&
+#1150
+0#
+#1200
+1%
+#1300
+0$
+#2000
+b0 !
+b101 "
+#2100
+0&
+#3000
+b1001 !
+b10 "
+#3100
+1&
+0%
+1$
+#4000
+b1010 !
+b1010 "
+#4050
+0'
+#4100
+1#
+0$
+0&
+#4150
+1%
+#5000
+b1111 !
+b1111 "
+#5100
+1&
+#5150
+1$

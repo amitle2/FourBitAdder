@@ -1,0 +1,15 @@
+C:/Users/User/Desktop/Verilog/FourBitAdder/HalfAdder.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Verilog/FourBitAdder/HalfAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} C:/Users/User/Desktop/Verilog/FourBitAdder/TestBench.v {1 {vlog -work work -stats=none C:/Users/User/Desktop/Verilog/FourBitAdder/TestBench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitAdderTB
+
+Top level modules:
+	FourBitAdderTB
+
+} {} {}}
